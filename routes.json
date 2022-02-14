@@ -1,0 +1,9 @@
+{
+    "/v1/performance/sales/store/:locationId/daily": "/daily?locationId=:locationId",
+    "/v1/performance/sales/store/:locationId/monthly": "/monthly?locationId=:locationId",
+    "/v1/performance/sales/store/:locationId/sections": "/sectionPerformance?locationId=:locationId",
+    "/v1/performance/sales/store/:locationId/section/:sectionCode/daily" : "/dailySectionPerformance?locationId=:locationId&sectionCode=:sectionCode",
+    "/v1/performance/sales/store/:locationId/section/:sectionCode/monthly" : "/monthlySectionPerformance?locationId=:locationId&sectionCode=:sectionCode",
+    "/v1/performance/sales/store/:locationId/subsection/:subsectionCode/daily" : "/subsectionPerformance?locationId=:locationId&subsectionCode=:subsectionCode",
+    "/v1/performance/sales/store/:locationId/subsection/:subsectionCode/monthly" : "/monthlySubsectionPerformance?locationId=:locationId&subsectionCode=:subsectionCode"
+}
