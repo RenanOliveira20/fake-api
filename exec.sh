@@ -1,0 +1,1 @@
+npm install && json-server --port 7000 --routes routes.json --watch db.json
