@@ -1,16 +1,13 @@
 /*const routes = 
-/stores/0045/sales/daily -> vendas diárias loja
-/stores/0045/sales/monthly -> vendas mensais loja
-/stores/0045/sales/section/01/daily -> vendas diarias do setor especifico
-/stores/0045/sales/subsection/0101/daily -> vendas diarias da subseção especifica
-/stores/0045/sales/section/01/monthly -> vendas mensais do setor especifico
-/stores/0045/sales/subsection/0101/monthly-> vendas mensais da subseção especifica
-/stores/0045/sales/profile/01 -> vendas dos assessores da seção especifica
-/stores/0045/sales/profile/51023091/daily -> vendas do assessor especifico no dia
-/stores/0045/sales/profile/51023091/monthly ->  vendas do assessor especifico no mes
-/stores/0045/humanResource/employee -> funcionario especifico **
-{
-    /stores/0045/sales/profile/daily -> vendas de todos os assessores da loja no dia 
-    /stores/0045/sales/profile/monthly -> vendas de todos os assessores da loja no mes
-} 
+/v1/performance/sales/store/:locationId/daily-> vendas diárias loja
+/v1/performance/sales/store/:locationId/monthly -> vendas mensais loja
+/v1/performance/sales/store/:locationId/sections -> vendas de todas as seções
+/v1/performance/sales/store/:locationId/section/:sectionCode/daily-> vendas diarias do setor especifico
+/v1/performance/sales/store/:locationId/subsection/:subsectionCode/daily -> vendas diarias da subseção especifica
+/v1/performance/sales/store/:locationId/section/:sectionCode/monthly -> vendas mensais do setor especifico
+/v1/performance/sales/store/:locationId/subsection/:subsectionCode/monthly-> vendas mensais da subseção especifica
+/v1/performance/sales/store/:locationId/advisors/:sectionCode/daily -> vendas dos assessores da seção especifica no dia
+/v1/performance/sales/store/:locationId/advisors/:sectionCode/monthly -> vendas dos assessores da seção especifica no mês
+/v1/performance/sales/store/:locationId/humanResource/employee/:ldapNumber -> funcionario especifico **
+
 */
