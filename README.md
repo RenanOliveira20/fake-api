@@ -3,17 +3,16 @@
 > JSON fake server. Fork this "repo" and start on the "7000 PORT".
 
 ## Requisitions table :
-|/v1/performance/sales/store/:locationId/daily|vendas diárias loja|
-|---------------------------------------------|-------------------|
-|/v1/performance/sales/store/:locationId/monthly | vendas mensais loja |
+|/v1/performance/sales/store/:locationId/daily| vendas diárias loja|
+|/v1/performance/sales/store/:locationId/monthly| vendas mensais loja |
 |/v1/performance/sales/store/:locationId/sections/daily| vendas de todas as seções no dia|
-|/v1/performance/sales/store/:locationId/section/:sectionCode/daily|vendas diarias do setor especifico|
-|/v1/performance/sales/store/:locationId/subsection/:subsectionCode/daily|vendas diarias da subseção especifica|
-|/v1/performance/sales/store/:locationId/section/:sectionCode/monthly|vendas mensais do setor especifico|
-|/v1/performance/sales/store/:locationId/subsection/:subsectionCode/monthly|vendas mensais da subseção especifica|
-|/v1/performance/sales/store/:locationId/advisors/:sectionCode/daily |vendas dos assessores da seção especifica no dia|
-|/v1/performance/sales/store/:locationId/advisors/:sectionCode/monthly|vendas dos assessores da seção especifica no mês|
-|/v1/performance/sales/store/:locationId/humanResource/employee/:ldapNumber|buscar funcionario especifico|
+|/v1/performance/sales/store/:locationId/section/:sectionCode/daily| vendas diarias do setor especifico|
+|/v1/performance/sales/store/:locationId/subsection/:subsectionCode/daily| vendas diarias da subseção especifica|
+|/v1/performance/sales/store/:locationId/section/:sectionCode/monthly| vendas mensais do setor especifico|
+|/v1/performance/sales/store/:locationId/subsection/:subsectionCode/monthly| vendas mensais da subseção especifica|
+|/v1/performance/sales/store/:locationId/advisors/:sectionCode/daily| vendas dos assessores da seção especifica no dia|
+|/v1/performance/sales/store/:locationId/advisors/:sectionCode/monthly| vendas dos assessores da seção especifica no mês|
+|/v1/performance/sales/store/:locationId/humanResource/employee/:ldapNumber| buscar funcionario especifico|
 
 ### Ajustes e melhorias
 
@@ -26,7 +25,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 ## 💻 Pré-requisitos
 
-Insert the script (Scripts:"start" : "json-server --port 7000 --routes routes.json --watch db.json"). And go with npm start.
+Insert the script ("Scripts:"start" : "json-server --port 7000 --routes routes.json --watch db.json"). And go with npm/yarn start.
 )
 
 ## 📫 Contribuindo com <fake-jsonServer>
