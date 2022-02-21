@@ -1,19 +1,17 @@
 # fake-jsonServer
 
-> JSON fake server. Fork this "repo" and start on the "7000 PORT".
+> JSON fake server, clone este "repo" e inicie na porta "7000".
 
 ## Requisitions table :
-|/v1/performance/sales/store/:locationId/daily|vendas diárias loja|
+|Rotas|Payload|
 |---------------------------------------------|-------------------|
-|/v1/performance/sales/store/:locationId/monthly | vendas mensais loja |
-|/v1/performance/sales/store/:locationId/sections/daily| vendas de todas as seções no dia|
-|/v1/performance/sales/store/:locationId/section/:sectionCode/daily|vendas diarias do setor especifico|
-|/v1/performance/sales/store/:locationId/subsection/:subsectionCode/daily|vendas diarias da subseção especifica|
-|/v1/performance/sales/store/:locationId/section/:sectionCode/monthly|vendas mensais do setor especifico|
-|/v1/performance/sales/store/:locationId/subsection/:subsectionCode/monthly|vendas mensais da subseção especifica|
-|/v1/performance/sales/store/:locationId/advisors/:sectionCode/daily |vendas dos assessores da seção especifica no dia|
-|/v1/performance/sales/store/:locationId/advisors/:sectionCode/monthly|vendas dos assessores da seção especifica no mês|
-|/v1/performance/sales/store/:locationId/humanResource/employee/:ldapNumber|buscar funcionario especifico|
+|/v1/performance/sales/store/:storeNumber?period=param|Vendas montly/daily.|
+|/v1/performance/sales/store/:storeNumber/allSections |Vendas de todas as seções/dia. |
+|/v1/performance/sales/store/:storeNumber/section/:sectionNumber?period=param| Vendas monthly/daily de seção especifica.|
+|v1/performance/sales/store/:storeNumber/subsection/:subsectionNumber?period=monthly|Vendas monthly/daily de subseção especifica.|
+|/v1/performance/sales/store/:storeNumber/humanResource/employee/:ldap|Colaborador especifico.|
+|/v1/performance/sales/store/:storeNumber/advisors/:sectionNumber|Assessores/seção especifica|
+|/v1/performance/sales/store/:storeNumber/advisor/:ldap?period=param|Vendas assessores/seção especifica monthly/daily|
 
 ### Ajustes e melhorias
 
@@ -26,8 +24,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 ## 💻 Pré-requisitos
 
-Insert the script (Scripts:"start" : "json-server --port 7000 --routes routes.json --watch db.json"). And go with npm start.
-)
+Npm instalado.
 
 ## 📫 Contribuindo com <fake-jsonServer>
 
@@ -47,10 +44,4 @@ Ranan, Christopher e Ricardo.
 
 ## 😄 Seja um dos contribuidores<br>
 
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
-
-## 📝 Licença
-
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
-
-[⬆ Voltar ao topo](fake-jsonServer)<br>
+[⬆ Voltar ao topo](https://github.com/RenanOliveira20/fake-api/blob/main/README.md)<br>
